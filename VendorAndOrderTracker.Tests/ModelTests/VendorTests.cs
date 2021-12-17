@@ -6,13 +6,13 @@ using System;
 namespace VendorAndOrderTracker.Tests
 {
   [TestClass]
-  public class OrderTests
+  public class VendorTests
   {
     [TestMethod]
-    public void OrderConstructor_CreatesInstanceOfOrder_Order()
+    public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
     {
-      Order newOrder = new Order("title", "description", 0, "date");
-      Assert.AreEqual(typeof(Order), newOrder.GetType());
+      Vendor newVendor = new Vendor("name", "description");
+      Assert.AreEqual(typeof(Vendor), newVendor.GetType());
     }
   }
 }
