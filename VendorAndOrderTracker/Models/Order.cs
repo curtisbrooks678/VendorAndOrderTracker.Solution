@@ -31,5 +31,10 @@ namespace VendorAndOrderTracker.Models
     {
       _instances.Clear();
     }
+    
+    public static List<Order> GetAll()
+    {
+      return _instances;
+    }
   }
 }
