@@ -50,6 +50,5 @@ namespace VendorAndOrderTracker.Controllers
       model.Add("vendor", foundVendor);
       return View("Show", model);
     }
-
   }
 }
