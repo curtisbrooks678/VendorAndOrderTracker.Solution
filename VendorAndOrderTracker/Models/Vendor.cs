@@ -24,6 +24,11 @@ namespace VendorAndOrderTracker.Models
       Orders = new List<Order>{};
     }
 
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
+
 
 
   }
