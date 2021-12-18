@@ -1,8 +1,3 @@
-// Properties for Vendor:
-// - Name
-// - Description of Vendor
-// - List of Orders
-
 using System.Collections.Generic;
 
 namespace VendorAndOrderTracker.Models

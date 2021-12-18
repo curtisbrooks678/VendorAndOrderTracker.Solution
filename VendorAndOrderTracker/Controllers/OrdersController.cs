@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using VendorAndOrderTracker.Models;
 using System.Collections.Generic;
+using VendorAndOrderTracker.Models;
 
 namespace VendorAndOrderTracker.Controllers
 {
-  public class OrderController : Controller
+  public class OrdersController : Controller
   {
 
     [HttpGet("/vendors/{vendorId}/orders/new")]

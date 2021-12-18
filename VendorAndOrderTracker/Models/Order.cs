@@ -1,9 +1,3 @@
-// Properties for Order:
-// - Title
-// - Description of Order
-// - Price
-// - Date
-
 using System.Collections.Generic;
 
 namespace VendorAndOrderTracker.Models
